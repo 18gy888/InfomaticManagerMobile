@@ -2,71 +2,43 @@
 	"pages": [
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "uc/login/login",
-			"style": {}
-		},
-		{
 			"path": "iuc/index/index",
 			"style": {}
 		},
 		{
-			"path":"iuc/softwareInstall/v1/create",
+			"path": "iuc/index/testEntry",
 			"style": {}
 		},
 		{
-			"path":"iuc/softwareInstall/v1/list",
+			"path": "uc/login/login",
 			"style": {}
 		},
 		{
-			"path":"iuc/softwareInstall/v1/detail",
+			"path":"iuc/roomApplication/v2/myApplication",
 			"style": {}
 		},
 		{
-			"path":"iuc/softwareInstall/v1/allot",
-			"style":{}
-		},
-		{
-			"path":"iuc/softwareInstall/v1/process",
+			"path":"iuc/roomApplication/v2/flowsCtrl",
 			"style": {}
 		},
 		{
-			"path":"iuc/softwareInstall/v1/confirm",
+			"path":"iuc/roomApplication/v2/todoList",
 			"style": {}
 		},
 		{
-			"path":"iuc/roomApplication/v1/list",
+			"path":"iuc/roomApplication/v2/myAttend",
 			"style": {}
 		},
 		{
-			"path":"iuc/roomApplication/v1/allot",
+			"path":"iuc/roomApplication/v2/allList",
 			"style": {}
 		},
 		{
-			"path":"iuc/roomApplication/v1/check",
+			"path":"iuc/roomView/labDetail",
 			"style": {}
 		},
 		{
-			"path":"iuc/roomApplication/v1/detail",
-			"style": {}
-		},
-		{
-			"path":"iuc/roomApplication/v1/confirm",
-			"style": {}
-		},
-		{
-			"path":"iuc/roomApplication/v1/create",
-			"style": {}
-		},
-		{
-			"path": "iuc/roomApplication/v1/labList",
-			"style": {}
-		},
-		{
-			"path": "iuc/roomApplication/v1/alllist",
-			"style": {}
-		},
-		{
-			"path":"iuc/roomApplication/v1/roomDetail",
+			"path":"iuc/roomView/labList",
 			"style": {}
 		},
 		{
@@ -82,6 +54,14 @@
 			"style": {}
 		},
 		{
+			"path":"iuc/News/newsList",
+			"style": {}
+		},
+		{
+			"path":"iuc/News/newsDetail",
+			"style": {}
+		},
+		{
 			"path":"iuc/userInfo/modifyGrade",
 			"style": {}
 		},
@@ -89,7 +69,15 @@
 			"path":"iuc/userInfo/modifyMobile",
 			"style": {}
 		}
-	],
+	    ,{
+            "path" : "iuc/index/index",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/labComponent/labTimeLine",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"mp-alipay": {
 			/* 支付宝小程序特有相关 */
